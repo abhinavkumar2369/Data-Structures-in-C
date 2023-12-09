@@ -5,10 +5,11 @@ void pop();
 void peek();
 
 int stack[50];
-int i,option;
+int i;
 int top=-1;
 
 void main(){
+    int option = 0;
     while(option != 4){
         printf("Choose from below options -- ");
         printf("\n 1.Push \n 2.Pop \n 3.Peek \n 4.Exit \n");
